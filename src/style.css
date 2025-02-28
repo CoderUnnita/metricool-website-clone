@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
 }
 
 html,body{
@@ -15,5 +18,9 @@ html,body{
     height: 14vh;
     background: linear-gradient(90deg,#8ac4da,#cfa5eb,#e5b888,#f39d25);
     color: #fff;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
